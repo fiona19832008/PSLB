@@ -1,0 +1,24 @@
+Package: PSLB
+Version: 0.1
+Date: 2022-03-31
+Title: Propensity Score Analysis with Local Balance
+Authors@R: c(
+  person("Yan", "Li", , "fiona19832008@gmail.com", c("aut", "cre")),
+  person("Liang", "Li", , "LLi15@mdanderson.org", c("aut"))
+  )
+Maintainer: Yan Li <fiona19832008@gmail.com>
+Depends:
+      Matching,      
+      CBPS,
+      mgcv,
+      Matrix,
+      osqp,
+      quadprog,
+      kernlab,
+      RSpectra,
+      MASS
+Description: Implements the propensity score analysis with local balance proposed by Yan Li and Liang Li. This two-step method nonparametrically estimate propensity score weights that achieve local covariate balance. 
+License: `mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2.9000
